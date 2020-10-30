@@ -8,7 +8,7 @@ class Homepage extends Component {
     render() {
       return (
         <div>
-          <h2>{this.state.heading}</h2>
+           {/* <img src="../src/images/profile_pic.jpg"/> */}
         </div>
       );
     }
