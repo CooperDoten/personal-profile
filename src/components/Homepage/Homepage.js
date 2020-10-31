@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './Homepage.css'
 class Homepage extends Component {
     state = {
       heading: 'Homepage',
@@ -7,8 +7,10 @@ class Homepage extends Component {
   
     render() {
       return (
-        <div>
-           <img height="400px" width="300px" src="/profile_pic.jpg"/>
+        <div className="homePage">
+            <div className="profileCard">
+             <img id="profilePicture" src="/profile-picture.png" alt="Cooper Doten full stack developer"/>
+           </div>
         </div>
       );
     }
