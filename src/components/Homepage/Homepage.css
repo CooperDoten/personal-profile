@@ -1,14 +1,11 @@
 .homePage{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    
 }
 .profileCard{
     height: 50%;
     width: 35%;
-    background-color:#fff;
-    border-radius: 5px;
-    background-color: firebrick;
+    border-radius: 3px;
+    background-color: #F7B2AD;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -20,4 +17,9 @@
    
     margin: 5px;
 
+}
+.standard-btn-1{
+    background: url('../../images/floralbg7.jpg');
+    height: 80px;
+    width: 100px;
 }

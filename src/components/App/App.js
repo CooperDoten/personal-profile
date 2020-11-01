@@ -7,7 +7,7 @@ import {
 import './App.css';
 import Homepage from '../Homepage/Homepage';
 import Nav from '../Nav/Nav'
-
+import Footer from '../Footer/Footer';
 
 class App extends Component {
  
@@ -17,6 +17,7 @@ class App extends Component {
         <div className="appDiv">
           <Nav/>
           <Homepage />
+          <Footer />
         </div>
       </Router>
     );
