@@ -1,6 +1,5 @@
 .homePage{
-    padding-top: 75px;
-    padding-bottom: 75px;
+    margin-bottom: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -18,12 +17,51 @@
 #profilePicture{
     height: 70%;
     width: 70%;
-   
     margin: 5px;
+
 
 }
 .standard-btn-1{
     background: url('../../images/floralbg7.jpg');
     height: 80px;
     width: 100px;
+}
+.pance{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color:  #009FFD;
+    font-family: 'Amatic SC', cursive;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .vimeo {
+        height: 350px;
+        width: 300px;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .vimeo {
+        height: 400px;
+        width: 350px;
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .vimeo {
+        height: 360px;
+        width: 640px;
+      }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .vimeo {
+        height: 360px;
+        width: 640px;
+      }
 }

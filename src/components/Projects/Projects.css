@@ -1,14 +1,78 @@
+
 .Projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.Project-Div{
-    height: 400px;
-    width: 500px;
-    background-color: #ffffff;
-}
-.Project-Image{
-    height: 80%;
     width: 100%;
+    margin-bottom: 75px;
+    background-color: firebrick;
+}
+
+.Project-Div{
+    
+    background-color: #413f3f;
+    margin: 15px;
+    padding: 0 2px;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+}   
+/* @media only screen and (max-width: 668px) {
+    .Project-Div{
+        height: 150px;
+        width: 250px;
+        background-color: #413f3f;
+        margin: 3px;
+        padding: 0 2px;
+        flex: 1 1 0px;
+        transition: transform 500ms;
+    } 
+  } 
+  @media only screen and (max-width: 500px) {
+    .Project-Div{
+        height: 100px;
+        width: 200px;
+        background-color: #413f3f;
+        margin: 3px;
+        padding: 0 2px;
+        flex: 1 1 0px;
+        transition: transform 500ms;
+    } 
+  }
+  .Project-Div:hover{
+      transform: scale(1.2);
+  } */
+/* .Project-Div:hover { 
+    margin: 0 40px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+} */
+/* .Projects:focus-within .Project-Div,
+.Projects:hover .Project-Div {
+  transform: translateX(-8%);
+  
+}
+
+.Project-Div:focus ~ .Project-Div,
+.Project-Div:hover ~ .Project-Div {
+  transform: translateX(8%);
+}
+
+.Projects .Project-Div:focus,
+.Projects .Project-Div:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  opacity: .2
+}  */
+
+.Project-Image{
+    height: 100%;
+    width: 100%;
+    /* -webkit-box-shadow:0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    transition: 250ms; */
 }

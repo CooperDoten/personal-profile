@@ -8,7 +8,8 @@ import './App.css';
 import Homepage from '../Homepage/Homepage';
 import Nav from '../Nav/Nav'
 import Footer from '../Footer/Footer';
-import Projects from '../Projects/Projects'
+import Projects from '../Projects/Projects';
+import Music from '../Music/Music';
 class App extends Component {
  
   render() {
@@ -16,8 +17,9 @@ class App extends Component {
       <Router>
         <div className="appDiv">
           <Nav/>
-          <Homepage />
-          <Projects />
+          <Route path="/" exact component={Homepage}/>
+          <Route path="/music" exact component={Music}/> 
+          <Route path="/projects" exact component={Projects}/>
           <Footer />
         </div>
       </Router>
