@@ -1,0 +1,14 @@
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Project-Div{
+    height: 400px;
+    width: 500px;
+    background-color: #ffffff;
+}
+.Project-Image{
+    height: 80%;
+    width: 100%;
+}

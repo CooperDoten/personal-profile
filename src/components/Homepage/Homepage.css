@@ -1,5 +1,9 @@
 .homePage{
-    
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .profileCard{
     height: 50%;

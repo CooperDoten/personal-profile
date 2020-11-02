@@ -8,7 +8,7 @@ import './App.css';
 import Homepage from '../Homepage/Homepage';
 import Nav from '../Nav/Nav'
 import Footer from '../Footer/Footer';
-
+import Projects from '../Projects/Projects'
 class App extends Component {
  
   render() {
@@ -17,6 +17,7 @@ class App extends Component {
         <div className="appDiv">
           <Nav/>
           <Homepage />
+          <Projects />
           <Footer />
         </div>
       </Router>
