@@ -4,7 +4,7 @@ import { useSpring, animated as a } from 'react-spring'
 import './Flipper.css'
 
 function Flipper() {
-    const projectTitle = <h1>Movie Saga Project</h1>
+    const text = useState(<h1>hey hey hey hey</h1>)
   const [flipped, set] = useState(false)
   const { transform, opacity } = useSpring({
     opacity: flipped ? 1 : 0,
@@ -14,7 +14,7 @@ function Flipper() {
   return (
     <div onClick={() => set(state => !state)}>
       <a.div className="c back" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} />
-      <a.div className="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }} title={projectTitle}/>
+      <a.div className="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }} text={text}/>
     </div>
   )
 }
