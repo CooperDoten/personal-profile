@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { useSpring, animated as a } from 'react-spring'
-import './Flipper.css'
+import './FlipperTwo.css'
 
-function Flipper() {
+function FlipperTwo() {
     
   const [flipped, set] = useState(false)
   const { transform, opacity } = useSpring({
@@ -13,11 +13,11 @@ function Flipper() {
   return (
     <div onClick={() => set(state => !state)}>
         
-      <a.div className="c back" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} />
-      <a.div className="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
+      <a.div className="cTwo backTwo" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} />
+      <a.div className="cTwo frontTwo" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
           <h1>Movie Saga</h1>
           <p>Information about project</p></a.div>
     </div>
   )
 }
-export default Flipper;
+export default FlipperTwo;
