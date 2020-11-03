@@ -24,8 +24,6 @@ class Projects extends Component {
            
         <FlipperTwo />
         </div>
- 
-            <div className="Projects">
         <iframe className="vimeo"
             src="https://player.vimeo.com/video/474486293" 
             title="Minnesota Go project presentation"
@@ -33,7 +31,6 @@ class Projects extends Component {
             allow="autoplay; fullscreen" 
             allowFullScreen>
             </iframe>
-            </div>
       </div>
     );
   }
