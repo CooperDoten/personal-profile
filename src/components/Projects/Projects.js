@@ -21,8 +21,7 @@ class Projects extends Component {
                 src="https://github.com/CooperDoten/movie-sagas/raw/master/movie_saga_homepage_screenshot.png?raw=true"/>
             </div> */}
             <Flipper />
-           
-        <FlipperTwo />
+            <FlipperTwo />
         </div>
         <iframe className="vimeo"
             src="https://player.vimeo.com/video/474486293" 
