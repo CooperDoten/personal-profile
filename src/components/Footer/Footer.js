@@ -12,8 +12,8 @@ class Footer extends Component {
         <div className="Footer-Bar">
           <div className="Footer-Options">
             <h1 className="Nav-Item">&#169; Cooper Doten</h1>
-            <a className="Nav-Item" href="https://github.com/CooperDoten"><img  id="gitIcon" src="/github-logo.png"/></a>
-            <a className="Nav-Item" href="https://www.linkedin.com/in/cooper-doten/"><img  id="linkedIcon" src="/linkedInLogo.png"/></a>
+            <a className="Nav-Item" href="https://github.com/CooperDoten"><img  id="gitIcon" src="/github-logo.png" alt="github logo"/></a>
+            <a className="Nav-Item" href="https://www.linkedin.com/in/cooper-doten/"><img  id="linkedIcon" src="/linkedInLogo.png" alt="linkedIn logo"/></a>
           </div>
         </div>
       </div>

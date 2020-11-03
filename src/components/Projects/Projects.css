@@ -1,21 +1,33 @@
 
 .Projects{
+    margin: 10px 10px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin-bottom: 75px;
-    background-color: firebrick;
+    border-radius: 3px;
 }
 
 .Project-Div{
-    
-    background-color: #413f3f;
-    margin: 15px;
-    padding: 0 2px;
-    flex: 1 1 0px;
-    transition: transform 500ms;
-}   
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    transition: 300ms;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+ -webkit-box-shadow:     1px 3px 3px 2px #949ba0;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+   -moz-box-shadow:    1px 3px 3px 2px #949ba0;  /* Firefox 3.5 - 3.6 */
+   box-shadow:        1px 3px 3px 2px #949ba0;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+ }
+ ::-webkit-scrollbar {
+     display: none;
+   }
+ .Project-Div:hover{
+     transform: scale(1.1);
+  }
+  
 /* @media only screen and (max-width: 668px) {
     .Project-Div{
         height: 150px;
