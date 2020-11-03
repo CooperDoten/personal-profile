@@ -1,4 +1,6 @@
-
+#musicBody{
+    background-color: #C9E3AC;
+}
 #DiscDiv{
     width: 100%;
     text-align: center;
@@ -15,7 +17,7 @@
 }
 
 .albumGallery{
-    margin: 10px 10px 10px;
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

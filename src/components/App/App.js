@@ -9,6 +9,7 @@ import Nav from '../Nav/Nav'
 import Footer from '../Footer/Footer';
 import Projects from '../Projects/Projects';
 import Music from '../Music/Music';
+
 class App extends Component {
  
   render() {

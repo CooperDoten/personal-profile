@@ -1,0 +1,23 @@
+.c {
+    position: absolute;
+    max-width: 600px;
+    max-height: 500px;
+    width: 60ch;
+    height: 50ch;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+  
+  .front,
+  .back {
+    background-size: cover;
+  }
+  
+  .back {
+    background-image: url('../../images/movie_saga_homepage_screenshot.png');
+  }
+  
+  .front {
+    background-color: #000000;
+  }
+  

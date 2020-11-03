@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Projects.css'
-
+import Flipper from '../Flipper/Flipper'
 class Projects extends Component {
   state = {
     heading: 'Projects',
@@ -12,7 +12,7 @@ class Projects extends Component {
   render() {
       
     return (
-        <div>
+        <div id="projectBody">
             <iframe className="vimeo"
             src="https://player.vimeo.com/video/474486293" 
             title="Minnesota Go project presentation"
@@ -21,22 +21,11 @@ class Projects extends Component {
             allowFullScreen>
             </iframe>
         <div className="Projects">
-            <div className="Project-Div">
+            {/* <div className="Project-Div">
                 <img className="Project-Image" alt="project"
                 src="https://github.com/CooperDoten/movie-sagas/raw/master/movie_saga_homepage_screenshot.png?raw=true"/>
-            </div>
-            <div className="Project-Div">
-            <img alt="project"/>
-            </div>
-            <div className="Project-Div">
-                <img alt="project"/>
-            </div>
-            <div className="Project-Div">
-                <img alt="project"/>
-            </div>
-            <div className="Project-Div">
-                <img alt="project"/>
-            </div>
+            </div> */}
+            <Flipper />
         </div>
       </div>
     );

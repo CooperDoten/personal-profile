@@ -1,4 +1,7 @@
-
+html, body, #root, .appDiv{
+  height: 100%;
+  width: 100%;
+}
 body {
   margin: 0;
   /* background: url('../src/images/floralbg7.jpg') no-repeat center center fixed;
@@ -6,13 +9,19 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; */
-  background-color: #C9E3AC;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+ 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
 }
 
 code {
