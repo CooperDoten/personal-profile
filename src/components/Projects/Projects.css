@@ -1,11 +1,12 @@
-#projectBody{
-    
-    height: 100%;
-}
+
 .Projects{
-    margin: 10px 10px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #C9E3AC;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    margin: 0;
 }
 

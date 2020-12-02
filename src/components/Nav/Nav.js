@@ -10,10 +10,9 @@ class Nav extends Component {
       return (
         <div className="Nav">
             <div className="options">
-              <h1 className="Nav-Item"><Link to="/">Home</Link></h1>
-              <h1 className="Nav-Item"><Link to="/projects">Projects</Link></h1>
-              <h1 className="Nav-Item"><Link to="/music">Music</Link></h1>
-              <h1 className="Nav-Item">About</h1>
+            <Link className="Nav-Links" to="/"><h1 className="Nav-Item">Home</h1></Link>
+            <Link to="/projects"><h1 className="Nav-Item">Projects</h1></Link>
+            <Link to="/music"><h1 className="Nav-Item">Music</h1></Link>
             </div>
         </div>
       );

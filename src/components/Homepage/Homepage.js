@@ -11,7 +11,7 @@ class Homepage extends Component {
       return (
         <div className="homePage">
           <div className="pance">
-          <h1 >I like you. Let's work together.</h1>
+          <h1 className="work">I like you. Let's work together.</h1>
           </div>        
             <Link to="/projects"><Card /></Link>
         </div>

@@ -20,14 +20,42 @@
     background-color:  #ffffff;
 }
 
+.Nav-Item{
+    text-decoration: none;
+    color:  #009FFD;
+    font-family: 'Amatic SC', cursive;
+}
 a{
     text-decoration: none;
     color:  #009FFD;
     font-family: 'Amatic SC', cursive;
 }
-.Nav-Item{
-    text-align: right;
-    font-size: 50px;
-    margin: 0;
-  
+
+@media only screen and (max-width: 600px) {
+   
+    .Nav-Links{
+        color:  #009FFD;
+        font-family: 'Amatic SC', cursive;
+        font-size: 10px
+    }
+   .Nav-Item{
+        text-decoration: none;
+        color:  #009FFD;
+        font-family: 'Amatic SC', cursive;
+        height: 100%;
+        width: 27%;
+        margin: 0;
+    }
+    .Nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .options{
+        color:  #009FFD;
+        font-family: 'Amatic SC', cursive;
+        border-radius: 3px;
+        background-color:  #ffffff;
+        margin-bottom: 5px;
+    }
 }

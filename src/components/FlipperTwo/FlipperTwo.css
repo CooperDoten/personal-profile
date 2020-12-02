@@ -1,8 +1,8 @@
 .cTwo {
     position: absolute;
-    margin-left: 500px;
-    max-width: 600px;
-    max-height: 500px;
+    margin-top: 480px;
+    width: 400px;
+    height: 300px;
     width: 60ch;
     height: 50ch;
     cursor: pointer;
@@ -16,11 +16,17 @@
   
   .backTwo {
     background-image: url('../../images/movie_saga_homepage_screenshot.png');
-  }
+    width: 500px;
+    height: 400px;
+}
   
   .frontTwo {
     background-color: #000000;
+    width: 500px;
+    height: 400px;
     color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
   }
   @media only screen and (max-width: 700px) {
     .cTwo {
