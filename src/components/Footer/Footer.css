@@ -1,6 +1,5 @@
 .Footer{
     bottom: 0;
-    position: fixed;
     width: 100%;
     background: url('../../images/floralbg7.jpg') no-repeat center center;
     -webkit-background-size: cover;
@@ -37,6 +36,10 @@
     height: 40px;
     width: 40px;
     padding-top: 8px;
+}
+#copyright{
+    font-size: 40px;
+    margin: 0;
 }
 @media only screen and (max-width: 600px) {
     .Footer-Options{

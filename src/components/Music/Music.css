@@ -1,5 +1,6 @@
 #musicBody{
     background-color: #C9E3AC;
+    display: flex;
 }
 #DiscDiv{
     width: 100%;
@@ -15,14 +16,27 @@
     background-image: url('../../images/yellowLego.jpg');
     filter: contrast(1.75)
 }
+#AboutDiv{
+    width: 100%;
+    text-align: center;
+    background-color: #C9E3AC;
+}
+.AboutTitle{
+    font-size: 70px;
+    margin-top: 5px;
+    color:  #009FFD;
+    font-family: 'Amatic SC', cursive;
+    border-radius: 3px;
+    background-image: url('../../images/yellowLego.jpg');
+    filter: contrast(1.75)
+}
 
 .albumGallery{
-   
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 50%;
     border-radius: 3px;
+    margin-bottom: 20px;
+    max-width: 50%;
 }
 
 .albumCovers{
@@ -44,4 +58,9 @@
     -webkit-box-shadow:     1px 2px 2px 2px #343a40;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    1px 2px 2px 2px #343a40;  /* Firefox 3.5 - 3.6 */
   box-shadow:        1px 2px 2px 2px #343a40;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+ }
+ .AboutPara{
+     background-color: #ffffff;
+     border-radius: 3px;
+     font-family: monospace;
  }

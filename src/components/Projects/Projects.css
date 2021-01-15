@@ -9,4 +9,25 @@
     height: 90%;
     margin: 0;
 }
-
+/* .slide{
+    height: 400px;
+    width: 300px;
+}
+.carousel-slider{ 
+    height: 400px;
+    width: 60%;
+} */
+.legend{
+    margin-top: 50px;
+}
+.carousel-root{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    height: 800px;
+    width: 600px;
+   margin: 0;
+}
+.videos{
+    width: 100%;
+}
