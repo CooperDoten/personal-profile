@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Projects.css'
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 class Projects extends Component {
   state = {
     heading: 'Projects',
@@ -14,29 +13,7 @@ class Projects extends Component {
   render() {     
     return (   
       <div className="Projects">
-        <Carousel>
-          <div>
-              <img src="/MNGO.png" />
-             <a href="https://github.com/CooperDoten/MN-GO"><p className="legend">MN GO</p></a> 
-          </div>
-          <div>
-              <img src="/blackIgnite.png" />
-              <a href="https://github.com/CooperDoten/black-ignite"><p className="legend">Black Ignite!</p></a> 
-          </div>
-          <div>
-              <img src="/movie_saga_homepage_screenshot.png" />
-              <a href="https://github.com/CooperDoten/movie-sagas"><p className="legend">Movie Saga</p></a> 
-          </div>
-          <div>
-              <img src="toDoList.png" />
-              <a href="https://github.com/CooperDoten/weekend-sql-to-do-list"><p className="legend">Weekend To Do List</p></a> 
-          </div>
-          <div>
-              <img src="CoopsGallery.png" />
-              <a href="https://github.com/CooperDoten/react-gallery"><p className="legend">React Gallery</p></a> 
-          </div>
-          </Carousel>
-      <div className="videos">
+      {/* <div className="videos">
         <iframe className="vimeo"
           src="https://player.vimeo.com/video/474486293" 
           title="Minnesota Go project presentation"
@@ -44,7 +21,27 @@ class Projects extends Component {
           allow="autoplay; fullscreen" 
           allowFullScreen>
         </iframe>
-      </div>
+      </div> */}
+        <div className="singleProject">
+          <img className="projectImage" src="/MNGO.png" alt="Person kayaking in the boundary waters"/>
+          <h1 className="projectDescription">I am incredibly passionate about Minnesota and all of the beauty that the landscape provides. It is in that spirit that I created the app "MN GO". This app makes it possible for a user to view all state parks in Minnesota that they can camp at and book a trip to that state park. Additionally, users can view all previously created trips, comment or delete a trip from their 'My Trips' view</h1>
+        </div>
+        <div className="singleProject">
+          <img className="projectImage" src="/blackIgnite.png" alt="Person kayaking in the boundary waters"/>
+          <h1 className="projectDescription">I am incredibly passionate about Minnesota and all of the beauty that the landscape provides. It is in that spirit that I created the app "MN GO". This app makes it possible for a user to view all state parks in Minnesota that they can camp at and book a trip to that state park. Additionally, users can view all previously created trips, comment or delete a trip from their 'My Trips' view</h1>
+        </div>
+        <div className="singleProject">
+          <img className="projectImage" src="/movie_saga_homepage_screenshot.png" alt="Person kayaking in the boundary waters"/>
+          <h1 className="projectDescription">I am incredibly passionate about Minnesota and all of the beauty that the landscape provides. It is in that spirit that I created the app "MN GO". This app makes it possible for a user to view all state parks in Minnesota that they can camp at and book a trip to that state park. Additionally, users can view all previously created trips, comment or delete a trip from their 'My Trips' view</h1>
+        </div>
+        <div className="singleProject">
+          <img className="projectImage" src="/CoopsGallery.png" alt="Person kayaking in the boundary waters"/>
+          <h1 className="projectDescription">I am incredibly passionate about Minnesota and all of the beauty that the landscape provides. It is in that spirit that I created the app "MN GO". This app makes it possible for a user to view all state parks in Minnesota that they can camp at and book a trip to that state park. Additionally, users can view all previously created trips, comment or delete a trip from their 'My Trips' view</h1>
+        </div>
+        <div className="singleProject">
+          <img className="projectImage" src="/toDoList.png" alt="Person kayaking in the boundary waters"/>
+          <h1 className="projectDescription">I am incredibly passionate about Minnesota and all of the beauty that the landscape provides. It is in that spirit that I created the app "MN GO". This app makes it possible for a user to view all state parks in Minnesota that they can camp at and book a trip to that state park. Additionally, users can view all previously created trips, comment or delete a trip from their 'My Trips' view</h1>
+        </div>
     </div>
     );
   }

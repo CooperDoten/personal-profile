@@ -5,17 +5,15 @@
     background-color: #C9E3AC;
     background-size: cover;
     width: 100%;
-    height: 90%;
+    height: 100%;
     margin: 0;
 }
 
-#profilePicture{
-    height: 70%;
-    width: 70%;
-    margin: 5px;
-
-
-}
+.card {
+    height: 400px;
+    width: 400px;
+    margin: 80px;
+  }
 .standard-btn-1{
     background: url('../../images/floralbg7.jpg');
     height: 80px;

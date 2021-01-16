@@ -13,7 +13,7 @@ class Homepage extends Component {
           <div className="pance">
           <h1 className="work">I like you. Let's work together.</h1>
           </div>        
-            <Link to="/projects"><Card /></Link>
+            <Link to="/projects"><Card className="card"/></Link>
         </div>
       );
     }
