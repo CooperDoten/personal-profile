@@ -15,6 +15,7 @@
     height: 300px
 }
 .projectDescription{
+    display: none;
     opacity: 0;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -39,3 +40,25 @@
 .singleProject:hover .projectImage{
     display: none;
 }
+
+a.button1{
+    display: none;
+}
+.singleProject:hover a.button1{
+    display: inline-block;
+    background-color:#000000;
+    color:#FFFFFF;
+    padding:0.35em 1.2em;
+    border:0.1em solid #C9E3AC;
+    margin:.5em 0.3em 0.3em 7.5em;
+    border-radius:5.0em;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    }
+    /* @media all and (max-width:30em){
+     a.button1{
+      display:block;
+      margin:0.4em auto;
+     }
+    } */
